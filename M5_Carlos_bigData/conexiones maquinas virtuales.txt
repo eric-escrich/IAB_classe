@@ -1,0 +1,3 @@
+{
+    SitesDeRei: ssh -i "SitesDeRei.pem" admin@ec2-3-234-80-147.compute-1.amazonaws.com,
+}

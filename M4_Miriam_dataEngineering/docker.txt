@@ -1,0 +1,5 @@
+containers: {
+    IABD_mysql: docker run --name IABD_mysql -e MYSQL_ROOT_PASSWORD=1234 -d mysql:latest
+}
+
+para crear un container
