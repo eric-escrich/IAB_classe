@@ -1,0 +1,22 @@
+Usar media es útil si lo que quieres es conocer un promedio sobre el total. Por ejemplo, si quieres ver cuántos viajeros por ocupado hay en promedio en cada isla, entonces la media tendría más sentido.
+
+
+Suma: Si lo que deseas es analizar el total acumulado de viajeros y ocupados en cada isla por año. Te da una visión más clara de la magnitud.
+Media: Si te interesa conocer el promedio de ocupados o viajeros en lugar del total.
+
+
+
+Grafico 1:
+Intención: Este gráfico te ayudará a ver si hay una correlación directa entre la llegada de turistas y el número de empleados en cada región
+
+Gráfico 2:
+Intención: Este gráfico muestra cómo varía el turismo y el empleo a lo largo del tiempo, permitiendo observar tendencias o patrones estacionales.
+
+Gráfico 3:
+Intención: Aquí puedes ver si la llegada de turistas de diferentes orígenes (locales vs extranjeros) tiene alguna relación con los cambios en el empleo en cada región.
+
+Gráfico 4:
+Intención: 
+
+Gráfico 5:
+Intención: 
