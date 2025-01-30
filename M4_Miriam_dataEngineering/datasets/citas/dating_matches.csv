@@ -1,0 +1,501 @@
+User_ID;Age;Gender;Location;Education;Occupation;Usage_Frequency;Daily_Usage_Time;Reason_for_Using;Satisfaction
+1;20;Non-binary;Bangalore;Undergraduate;Freelancer;Monthly;1;Finding a Partner;4
+2;24;Female;Delhi;Undergraduate;Part-time Job;Weekly;0.5;Casual Dating;5
+3;24;Non-binary;Kolkata;Undergraduate;Intern;Weekly;2;Casual Dating;4
+4;22;Non-binary;Delhi;Graduate;Full-time Job;Daily;0.5;Casual Fun;3
+5;18;Male;Delhi;Graduate;Intern;Weekly;2;Casual Fun;4
+6;23;Female;Mumbai;Undergraduate;Student;Daily;1.5 ;Casual Dating;2
+7;22;Non-binary;Chennai;Postgraduate;Part-time Job;Monthly;0.5;Finding a Partner;4
+8;21;Female;Pune;Postgraduate;Freelancer;Weekly;1.5 ;Finding a Partner;2
+9;20;Male;Pune;Postgraduate;Part-time Job;Daily;2;Finding a Partner;1
+10;20;Non-binary;Chennai;Undergraduate;Intern;Weekly;3;Finding a Partner;1
+11;18;Female;Hyderabad;Postgraduate;Full-time Job;Daily;1;Social Interaction;1
+12;21;Male;Delhi;Undergraduate;Part-time Job;Monthly;3;Finding a Partner;1
+13;22;Male;Bangalore;Undergraduate;Student;Monthly;1;Casual Dating;3
+14;19;Non-binary;Bangalore;Undergraduate;Student;Daily;2;Social Interaction;1
+15;22;Non-binary;Chennai;Graduate;Intern;Daily;1.5 ;Casual Fun;1
+16;19;Female;Bangalore;Undergraduate;Freelancer;Daily;1.5 ;Casual Dating;5
+17;22;Non-binary;Hyderabad;Graduate;Part-time Job;Monthly;1;Casual Fun;3
+18;19;Non-binary;Hyderabad;Graduate;Student;Monthly;1;Finding a Partner;3
+19;24;Male;Hyderabad;Graduate;Intern;Daily;0.5;Casual Dating;2
+20;22;Non-binary;Pune;Undergraduate;Student;Weekly;1.5 ;Finding a Partner;1
+21;22;Male;Mumbai;Postgraduate;Freelancer;Weekly;3;Social Interaction;1
+22;25;Non-binary;Hyderabad;Undergraduate;Intern;Weekly;3;Finding a Partner;5
+23;20;Female;Pune;Graduate;Full-time Job;Daily;3;Finding a Partner;4
+24;18;Male;Delhi;Graduate;Freelancer;Weekly;2;Casual Dating;5
+25;24;Male;Bangalore;Postgraduate;Full-time Job;Daily;2;Social Interaction;3
+26;24;Male;Kolkata;Graduate;Full-time Job;Weekly;3;Social Interaction;2
+27;21;Female;Delhi;Undergraduate;Student;Weekly;3;Casual Dating;5
+28;23;Male;Kolkata;Undergraduate;Part-time Job;Weekly;2;Casual Fun;1
+29;19;Female;Chennai;Undergraduate;Student;Weekly;3;Casual Dating;4
+30;18;Male;Mumbai;Undergraduate;Freelancer;Daily;3;Finding a Partner;4
+31;24;Non-binary;Bangalore;Graduate;Full-time Job;Weekly;0.5;Casual Dating;5
+32;20;Male;Bangalore;Graduate;Full-time Job;Monthly;1;Finding a Partner;3
+33;24;Female;Delhi;Graduate;Part-time Job;Weekly;0.5;Casual Dating;3
+34;25;Male;Kolkata;Graduate;Full-time Job;Weekly;3;Finding a Partner;5
+35;21;Female;Delhi;Graduate;Full-time Job;Daily;2;Casual Dating;3
+36;22;Non-binary;Mumbai;Postgraduate;Part-time Job;Monthly;0.5;Finding a Partner;3
+37;22;Female;Kolkata;Undergraduate;Intern;Monthly;1;Finding a Partner;3
+38;20;Female;Mumbai;Undergraduate;Full-time Job;Daily;1.5 ;Finding a Partner;1
+39;21;Male;Delhi;Postgraduate;Full-time Job;Daily;1;Casual Fun;1
+40;18;Male;Kolkata;Graduate;Intern;Weekly;1;Social Interaction;5
+41;24;Male;Bangalore;Undergraduate;Student;Daily;1.5 ;Finding a Partner;3
+42;19;Female;Pune;Postgraduate;Part-time Job;Weekly;2;Casual Dating;2
+43;19;Female;Bangalore;Graduate;Part-time Job;Weekly;2;Social Interaction;4
+44;23;Female;Delhi;Postgraduate;Freelancer;Weekly;2;Casual Fun;5
+45;21;Male;Delhi;Undergraduate;Student;Daily;1.5 ;Casual Dating;2
+46;19;Female;Hyderabad;Graduate;Intern;Weekly;2;Casual Dating;5
+47;21;Male;Kolkata;Graduate;Intern;Daily;1.5 ;Finding a Partner;1
+48;24;Non-binary;Bangalore;Undergraduate;Full-time Job;Weekly;2;Finding a Partner;2
+49;21;Male;Bangalore;Postgraduate;Student;Weekly;0.5;Casual Fun;3
+50;19;Male;Kolkata;Postgraduate;Full-time Job;Weekly;0.5;Casual Dating;2
+51;19;Female;Pune;Postgraduate;Freelancer;Monthly;1;Social Interaction;5
+52;25;Non-binary;Delhi;Graduate;Part-time Job;Daily;3;Finding a Partner;2
+53;25;Male;Mumbai;Graduate;Full-time Job;Daily;1.5 ;Casual Fun;2
+54;18;Male;Delhi;Postgraduate;Student;Weekly;3;Social Interaction;5
+55;22;Non-binary;Mumbai;Undergraduate;Freelancer;Monthly;3;Finding a Partner;3
+56;20;Non-binary;Mumbai;Undergraduate;Intern;Weekly;1.5 ;Finding a Partner;5
+57;23;Non-binary;Delhi;Postgraduate;Freelancer;Daily;1.5 ;Social Interaction;3
+58;19;Female;Mumbai;Postgraduate;Student;Daily;2;Casual Fun;3
+59;19;Female;Pune;Postgraduate;Student;Daily;3;Casual Fun;5
+60;22;Male;Chennai;Undergraduate;Full-time Job;Monthly;3;Social Interaction;1
+61;22;Non-binary;Bangalore;Undergraduate;Intern;Weekly;0.5;Casual Dating;4
+62;24;Female;Bangalore;Postgraduate;Freelancer;Weekly;2;Social Interaction;3
+63;21;Female;Chennai;Graduate;Part-time Job;Daily;1.5 ;Social Interaction;4
+64;20;Female;Delhi;Postgraduate;Intern;Monthly;1;Finding a Partner;5
+65;23;Male;Kolkata;Graduate;Intern;Weekly;2;Casual Dating;4
+66;22;Male;Chennai;Undergraduate;Part-time Job;Monthly;1.5 ;Social Interaction;5
+67;18;Female;Pune;Postgraduate;Intern;Daily;2;Casual Fun;2
+68;22;Male;Bangalore;Graduate;Full-time Job;Daily;1;Finding a Partner;1
+69;24;Female;Delhi;Graduate;Intern;Monthly;3;Finding a Partner;4
+70;18;Male;Hyderabad;Postgraduate;Intern;Daily;3;Casual Dating;2
+71;19;Male;Bangalore;Postgraduate;Part-time Job;Monthly;2;Casual Dating;4
+72;19;Male;Kolkata;Graduate;Intern;Daily;2;Casual Fun;1
+73;25;Non-binary;Delhi;Postgraduate;Part-time Job;Daily;3;Finding a Partner;2
+74;25;Female;Bangalore;Graduate;Student;Weekly;3;Finding a Partner;4
+75;19;Female;Chennai;Undergraduate;Intern;Daily;0.5;Finding a Partner;2
+76;22;Male;Chennai;Undergraduate;Full-time Job;Monthly;0.5;Finding a Partner;3
+77;23;Male;Mumbai;Postgraduate;Part-time Job;Weekly;1.5 ;Casual Fun;4
+78;25;Non-binary;Delhi;Postgraduate;Full-time Job;Daily;1.5 ;Casual Fun;1
+79;23;Female;Pune;Postgraduate;Student;Monthly;1;Casual Dating;5
+80;24;Male;Bangalore;Postgraduate;Freelancer;Monthly;0.5;Social Interaction;5
+81;18;Female;Delhi;Undergraduate;Freelancer;Monthly;1;Casual Fun;1
+82;18;Male;Chennai;Graduate;Freelancer;Daily;1;Social Interaction;2
+83;18;Male;Mumbai;Undergraduate;Intern;Daily;2;Social Interaction;1
+84;22;Non-binary;Hyderabad;Postgraduate;Part-time Job;Weekly;1.5 ;Finding a Partner;1
+85;18;Non-binary;Pune;Undergraduate;Intern;Weekly;2;Social Interaction;1
+86;20;Female;Delhi;Postgraduate;Student;Monthly;1;Social Interaction;5
+87;21;Non-binary;Pune;Graduate;Freelancer;Monthly;3;Casual Dating;5
+88;23;Male;Delhi;Graduate;Intern;Daily;1;Social Interaction;2
+89;22;Non-binary;Hyderabad;Postgraduate;Full-time Job;Daily;3;Finding a Partner;2
+90;24;Male;Hyderabad;Graduate;Full-time Job;Weekly;3;Casual Fun;5
+91;18;Female;Mumbai;Postgraduate;Intern;Daily;2;Social Interaction;4
+92;21;Male;Hyderabad;Undergraduate;Full-time Job;Monthly;2;Finding a Partner;1
+93;22;Non-binary;Pune;Graduate;Full-time Job;Weekly;0.5;Casual Dating;2
+94;21;Non-binary;Chennai;Graduate;Part-time Job;Monthly;3;Casual Dating;3
+95;23;Female;Mumbai;Undergraduate;Full-time Job;Monthly;3;Social Interaction;2
+96;20;Female;Delhi;Postgraduate;Student;Daily;2;Finding a Partner;4
+97;23;Female;Delhi;Undergraduate;Part-time Job;Daily;1.5 ;Finding a Partner;5
+98;22;Male;Chennai;Graduate;Part-time Job;Daily;0.5;Finding a Partner;1
+99;20;Male;Kolkata;Undergraduate;Freelancer;Daily;1.5 ;Casual Dating;2
+100;20;Male;Hyderabad;Graduate;Part-time Job;Weekly;3;Finding a Partner;3
+101;19;Non-binary;Hyderabad;Undergraduate;Freelancer;Daily;1.5 ;Casual Fun;4
+102;19;Male;Kolkata;Graduate;Student;Weekly;3;Finding a Partner;5
+103;25;Male;Delhi;Postgraduate;Part-time Job;Monthly;0.5;Social Interaction;3
+104;20;Female;Chennai;Undergraduate;Freelancer;Monthly;1;Finding a Partner;4
+105;25;Male;Delhi;Undergraduate;Student;Monthly;1.5 ;Finding a Partner;4
+106;25;Female;Delhi;Graduate;Freelancer;Weekly;2;Casual Fun;3
+107;25;Male;Mumbai;Graduate;Intern;Daily;0.5;Casual Fun;5
+108;21;Male;Kolkata;Undergraduate;Freelancer;Daily;1.5 ;Casual Dating;2
+109;18;Male;Bangalore;Undergraduate;Freelancer;Monthly;2;Social Interaction;1
+110;25;Male;Bangalore;Graduate;Freelancer;Daily;2;Casual Fun;2
+111;24;Male;Bangalore;Undergraduate;Full-time Job;Weekly;2;Finding a Partner;2
+112;18;Female;Pune;Undergraduate;Freelancer;Weekly;1.5 ;Casual Dating;4
+113;23;Non-binary;Chennai;Undergraduate;Intern;Daily;1;Casual Dating;3
+114;19;Male;Chennai;Postgraduate;Intern;Weekly;1;Casual Dating;1
+115;23;Male;Hyderabad;Graduate;Freelancer;Monthly;2;Casual Dating;1
+116;24;Non-binary;Kolkata;Postgraduate;Full-time Job;Weekly;1.5 ;Casual Dating;1
+117;24;Female;Delhi;Undergraduate;Intern;Daily;2;Finding a Partner;3
+118;25;Non-binary;Chennai;Undergraduate;Freelancer;Monthly;0.5;Casual Fun;3
+119;19;Male;Delhi;Postgraduate;Intern;Monthly;3;Casual Fun;5
+120;21;Non-binary;Chennai;Postgraduate;Freelancer;Monthly;2;Casual Fun;1
+121;25;Non-binary;Delhi;Graduate;Student;Daily;1;Social Interaction;4
+122;24;Non-binary;Bangalore;Postgraduate;Intern;Monthly;0.5;Casual Dating;4
+123;19;Non-binary;Bangalore;Graduate;Intern;Monthly;1.5 ;Casual Fun;3
+124;20;Non-binary;Bangalore;Undergraduate;Intern;Monthly;2;Casual Fun;4
+125;18;Non-binary;Delhi;Postgraduate;Freelancer;Daily;1.5 ;Finding a Partner;3
+126;21;Male;Chennai;Graduate;Part-time Job;Monthly;0.5;Finding a Partner;5
+127;22;Female;Mumbai;Postgraduate;Student;Monthly;3;Finding a Partner;3
+128;24;Male;Pune;Postgraduate;Student;Weekly;1;Finding a Partner;2
+129;25;Female;Mumbai;Postgraduate;Student;Monthly;1;Casual Dating;1
+130;23;Male;Mumbai;Postgraduate;Freelancer;Monthly;0.5;Casual Dating;4
+131;20;Female;Chennai;Graduate;Part-time Job;Daily;2;Finding a Partner;4
+132;24;Non-binary;Bangalore;Graduate;Part-time Job;Monthly;1.5 ;Finding a Partner;1
+133;25;Non-binary;Pune;Postgraduate;Intern;Monthly;0.5;Finding a Partner;2
+134;25;Female;Pune;Postgraduate;Part-time Job;Daily;1.5 ;Casual Fun;3
+135;20;Female;Kolkata;Graduate;Intern;Daily;1;Finding a Partner;4
+136;24;Male;Kolkata;Undergraduate;Student;Daily;1;Finding a Partner;2
+137;18;Female;Chennai;Undergraduate;Part-time Job;Daily;3;Casual Dating;5
+138;18;Female;Bangalore;Undergraduate;Full-time Job;Monthly;0.5;Casual Dating;4
+139;23;Non-binary;Delhi;Undergraduate;Student;Weekly;3;Casual Dating;5
+140;18;Male;Chennai;Postgraduate;Student;Monthly;1;Finding a Partner;1
+141;19;Non-binary;Bangalore;Undergraduate;Part-time Job;Daily;1.5 ;Casual Dating;1
+142;22;Male;Pune;Postgraduate;Intern;Monthly;1;Social Interaction;3
+143;19;Male;Mumbai;Graduate;Freelancer;Daily;0.5;Finding a Partner;3
+144;22;Female;Hyderabad;Undergraduate;Freelancer;Weekly;3;Finding a Partner;3
+145;24;Male;Chennai;Undergraduate;Freelancer;Monthly;3;Social Interaction;3
+146;18;Non-binary;Kolkata;Postgraduate;Full-time Job;Weekly;2;Casual Dating;5
+147;23;Non-binary;Hyderabad;Graduate;Full-time Job;Weekly;0.5;Casual Fun;5
+148;23;Female;Delhi;Undergraduate;Student;Daily;3;Social Interaction;5
+149;22;Female;Bangalore;Graduate;Full-time Job;Monthly;1.5 ;Casual Dating;5
+150;19;Female;Hyderabad;Undergraduate;Student;Weekly;2;Social Interaction;1
+151;19;Male;Mumbai;Undergraduate;Intern;Monthly;3;Social Interaction;2
+152;18;Non-binary;Pune;Graduate;Freelancer;Daily;0.5;Social Interaction;2
+153;24;Female;Hyderabad;Graduate;Part-time Job;Monthly;3;Casual Fun;3
+154;23;Male;Delhi;Undergraduate;Freelancer;Monthly;2;Casual Dating;5
+155;18;Female;Bangalore;Graduate;Freelancer;Weekly;0.5;Casual Fun;4
+156;18;Non-binary;Pune;Graduate;Freelancer;Monthly;1;Social Interaction;3
+157;22;Female;Hyderabad;Graduate;Full-time Job;Monthly;1.5 ;Social Interaction;3
+158;25;Non-binary;Hyderabad;Undergraduate;Part-time Job;Daily;3;Social Interaction;3
+159;22;Non-binary;Chennai;Graduate;Student;Weekly;2;Finding a Partner;5
+160;24;Male;Hyderabad;Postgraduate;Intern;Weekly;1;Social Interaction;2
+161;23;Non-binary;Bangalore;Graduate;Part-time Job;Daily;3;Social Interaction;1
+162;23;Female;Kolkata;Undergraduate;Full-time Job;Monthly;1.5 ;Social Interaction;2
+163;23;Female;Kolkata;Graduate;Freelancer;Weekly;3;Casual Fun;5
+164;24;Non-binary;Pune;Graduate;Full-time Job;Daily;3;Casual Dating;1
+165;18;Female;Bangalore;Postgraduate;Part-time Job;Weekly;1;Casual Fun;1
+166;19;Male;Hyderabad;Postgraduate;Freelancer;Weekly;1;Social Interaction;5
+167;21;Female;Hyderabad;Undergraduate;Full-time Job;Daily;3;Finding a Partner;1
+168;21;Non-binary;Bangalore;Postgraduate;Part-time Job;Monthly;3;Casual Fun;3
+169;22;Non-binary;Bangalore;Undergraduate;Freelancer;Daily;0.5;Social Interaction;4
+170;24;Male;Delhi;Graduate;Full-time Job;Monthly;2;Social Interaction;1
+171;21;Non-binary;Delhi;Graduate;Intern;Monthly;2;Casual Dating;1
+172;19;Female;Chennai;Undergraduate;Part-time Job;Monthly;0.5;Finding a Partner;3
+173;21;Non-binary;Delhi;Undergraduate;Part-time Job;Daily;0.5;Casual Fun;1
+174;23;Male;Mumbai;Postgraduate;Intern;Weekly;2;Casual Fun;1
+175;19;Non-binary;Kolkata;Postgraduate;Full-time Job;Monthly;0.5;Casual Dating;2
+176;24;Male;Bangalore;Graduate;Student;Daily;1.5 ;Social Interaction;1
+177;24;Male;Mumbai;Graduate;Freelancer;Daily;2;Finding a Partner;1
+178;18;Male;Delhi;Graduate;Part-time Job;Weekly;1;Casual Fun;1
+179;21;Female;Kolkata;Postgraduate;Part-time Job;Monthly;1.5 ;Casual Fun;2
+180;20;Non-binary;Hyderabad;Undergraduate;Full-time Job;Daily;1;Finding a Partner;4
+181;21;Male;Bangalore;Postgraduate;Student;Weekly;1;Casual Fun;1
+182;22;Non-binary;Pune;Graduate;Student;Weekly;0.5;Casual Dating;4
+183;21;Male;Kolkata;Undergraduate;Part-time Job;Daily;0.5;Casual Fun;4
+184;22;Non-binary;Delhi;Graduate;Full-time Job;Weekly;0.5;Casual Fun;5
+185;23;Female;Kolkata;Undergraduate;Part-time Job;Monthly;1.5 ;Casual Dating;1
+186;18;Non-binary;Kolkata;Graduate;Full-time Job;Weekly;1;Casual Dating;2
+187;24;Female;Kolkata;Undergraduate;Full-time Job;Monthly;0.5;Casual Dating;2
+188;23;Male;Pune;Graduate;Intern;Weekly;2;Social Interaction;5
+189;24;Male;Pune;Postgraduate;Freelancer;Daily;2;Casual Fun;1
+190;20;Male;Delhi;Graduate;Full-time Job;Monthly;1.5 ;Casual Dating;3
+191;25;Female;Hyderabad;Graduate;Part-time Job;Monthly;2;Finding a Partner;5
+192;22;Male;Mumbai;Postgraduate;Student;Monthly;2;Casual Fun;5
+193;24;Male;Chennai;Graduate;Part-time Job;Monthly;0.5;Social Interaction;3
+194;24;Female;Hyderabad;Graduate;Freelancer;Daily;1;Casual Fun;1
+195;18;Male;Mumbai;Undergraduate;Intern;Weekly;1.5 ;Social Interaction;1
+196;25;Female;Pune;Postgraduate;Part-time Job;Daily;1;Finding a Partner;5
+197;19;Female;Delhi;Undergraduate;Intern;Weekly;2;Finding a Partner;3
+198;20;Female;Hyderabad;Undergraduate;Full-time Job;Weekly;3;Social Interaction;3
+199;23;Female;Delhi;Graduate;Intern;Monthly;2;Finding a Partner;4
+200;19;Female;Bangalore;Graduate;Student;Weekly;0.5;Casual Dating;2
+201;21;Non-binary;Delhi;Graduate;Intern;Weekly;1.5 ;Social Interaction;1
+202;20;Non-binary;Chennai;Graduate;Freelancer;Weekly;3;Finding a Partner;1
+203;18;Male;Kolkata;Graduate;Intern;Weekly;0.5;Finding a Partner;2
+204;23;Non-binary;Chennai;Postgraduate;Full-time Job;Monthly;1.5 ;Social Interaction;2
+205;18;Non-binary;Chennai;Postgraduate;Intern;Weekly;2;Casual Dating;2
+206;21;Male;Hyderabad;Undergraduate;Part-time Job;Weekly;1;Casual Fun;4
+207;20;Non-binary;Delhi;Postgraduate;Part-time Job;Monthly;2;Casual Dating;5
+208;24;Female;Kolkata;Graduate;Student;Daily;2;Casual Dating;5
+209;19;Female;Mumbai;Undergraduate;Freelancer;Monthly;1;Casual Dating;1
+210;24;Female;Mumbai;Undergraduate;Freelancer;Weekly;2;Casual Dating;5
+211;24;Male;Bangalore;Undergraduate;Full-time Job;Daily;3;Social Interaction;2
+212;19;Female;Kolkata;Postgraduate;Part-time Job;Weekly;2;Social Interaction;5
+213;22;Female;Pune;Postgraduate;Student;Monthly;1;Social Interaction;3
+214;19;Female;Mumbai;Graduate;Part-time Job;Daily;2;Casual Dating;2
+215;23;Male;Delhi;Graduate;Full-time Job;Weekly;3;Social Interaction;1
+216;19;Male;Hyderabad;Undergraduate;Intern;Daily;0.5;Social Interaction;4
+217;19;Female;Chennai;Undergraduate;Full-time Job;Daily;1;Finding a Partner;2
+218;21;Non-binary;Hyderabad;Undergraduate;Intern;Monthly;1.5 ;Social Interaction;5
+219;23;Male;Mumbai;Graduate;Student;Weekly;1.5 ;Social Interaction;5
+220;22;Non-binary;Hyderabad;Graduate;Full-time Job;Weekly;2;Social Interaction;1
+221;19;Non-binary;Pune;Postgraduate;Intern;Monthly;3;Casual Dating;1
+222;23;Female;Delhi;Undergraduate;Freelancer;Monthly;1;Social Interaction;3
+223;18;Male;Bangalore;Undergraduate;Freelancer;Daily;1.5 ;Casual Fun;2
+224;23;Female;Hyderabad;Postgraduate;Freelancer;Monthly;2;Casual Fun;4
+225;20;Female;Bangalore;Graduate;Freelancer;Weekly;2;Casual Fun;3
+226;23;Non-binary;Hyderabad;Undergraduate;Freelancer;Daily;2;Casual Fun;3
+227;18;Female;Kolkata;Undergraduate;Full-time Job;Monthly;1;Finding a Partner;2
+228;23;Female;Pune;Undergraduate;Student;Monthly;1.5 ;Casual Fun;3
+229;22;Male;Pune;Undergraduate;Student;Monthly;1.5 ;Social Interaction;4
+230;20;Male;Bangalore;Undergraduate;Part-time Job;Weekly;1;Casual Fun;4
+231;18;Female;Mumbai;Undergraduate;Full-time Job;Monthly;2;Casual Dating;1
+232;23;Non-binary;Mumbai;Postgraduate;Student;Weekly;0.5;Social Interaction;5
+233;25;Female;Mumbai;Undergraduate;Intern;Daily;0.5;Finding a Partner;3
+234;22;Non-binary;Chennai;Graduate;Freelancer;Monthly;0.5;Casual Dating;2
+235;22;Male;Chennai;Undergraduate;Part-time Job;Daily;2;Social Interaction;3
+236;25;Non-binary;Hyderabad;Graduate;Full-time Job;Monthly;2;Casual Fun;5
+237;23;Female;Mumbai;Postgraduate;Intern;Monthly;1.5 ;Casual Dating;4
+238;18;Non-binary;Bangalore;Graduate;Intern;Daily;3;Casual Fun;3
+239;23;Non-binary;Mumbai;Graduate;Intern;Daily;3;Finding a Partner;2
+240;25;Female;Chennai;Graduate;Student;Daily;2;Social Interaction;2
+241;20;Female;Mumbai;Postgraduate;Part-time Job;Daily;1.5 ;Finding a Partner;3
+242;23;Non-binary;Chennai;Graduate;Intern;Monthly;1.5 ;Finding a Partner;2
+243;20;Non-binary;Hyderabad;Undergraduate;Part-time Job;Daily;1.5 ;Social Interaction;5
+244;23;Non-binary;Chennai;Postgraduate;Intern;Daily;3;Social Interaction;5
+245;24;Non-binary;Pune;Graduate;Freelancer;Weekly;3;Casual Dating;4
+246;24;Non-binary;Mumbai;Postgraduate;Intern;Daily;0.5;Casual Dating;2
+247;23;Male;Kolkata;Postgraduate;Intern;Monthly;3;Social Interaction;3
+248;22;Non-binary;Hyderabad;Postgraduate;Student;Daily;0.5;Casual Dating;4
+249;22;Male;Bangalore;Postgraduate;Student;Daily;1;Finding a Partner;2
+250;19;Male;Mumbai;Postgraduate;Freelancer;Daily;3;Casual Dating;2
+251;19;Male;Pune;Graduate;Part-time Job;Weekly;3;Casual Fun;4
+252;25;Male;Bangalore;Postgraduate;Student;Monthly;1;Finding a Partner;2
+253;24;Male;Chennai;Graduate;Student;Daily;1.5 ;Finding a Partner;1
+254;21;Female;Mumbai;Undergraduate;Intern;Weekly;1;Casual Dating;1
+255;22;Male;Pune;Graduate;Freelancer;Daily;0.5;Finding a Partner;5
+256;21;Male;Bangalore;Undergraduate;Student;Weekly;1.5 ;Finding a Partner;3
+257;19;Female;Chennai;Undergraduate;Freelancer;Daily;2;Finding a Partner;1
+258;24;Male;Pune;Graduate;Freelancer;Monthly;1.5 ;Casual Fun;4
+259;19;Male;Bangalore;Graduate;Freelancer;Daily;1;Casual Fun;1
+260;23;Male;Delhi;Undergraduate;Intern;Daily;0.5;Casual Fun;2
+261;18;Female;Pune;Undergraduate;Full-time Job;Monthly;1;Casual Dating;5
+262;22;Female;Pune;Undergraduate;Full-time Job;Weekly;1;Social Interaction;3
+263;21;Non-binary;Chennai;Postgraduate;Full-time Job;Monthly;1.5 ;Casual Fun;4
+264;25;Male;Kolkata;Undergraduate;Intern;Daily;2;Finding a Partner;4
+265;23;Non-binary;Bangalore;Graduate;Freelancer;Weekly;1;Casual Fun;3
+266;25;Male;Bangalore;Graduate;Freelancer;Daily;0.5;Social Interaction;5
+267;19;Female;Chennai;Graduate;Intern;Weekly;1.5 ;Casual Fun;1
+268;25;Non-binary;Hyderabad;Graduate;Student;Weekly;1.5 ;Casual Fun;3
+269;19;Non-binary;Bangalore;Graduate;Part-time Job;Weekly;0.5;Casual Dating;3
+270;19;Male;Mumbai;Undergraduate;Full-time Job;Weekly;1.5 ;Casual Dating;4
+271;23;Male;Pune;Graduate;Part-time Job;Weekly;3;Finding a Partner;1
+272;18;Female;Hyderabad;Undergraduate;Student;Weekly;2;Casual Fun;1
+273;19;Non-binary;Kolkata;Postgraduate;Full-time Job;Monthly;1;Social Interaction;5
+274;20;Non-binary;Kolkata;Postgraduate;Intern;Weekly;0.5;Casual Dating;1
+275;18;Male;Mumbai;Postgraduate;Part-time Job;Monthly;1;Finding a Partner;3
+276;24;Male;Mumbai;Graduate;Intern;Daily;2;Casual Fun;3
+277;23;Non-binary;Delhi;Undergraduate;Full-time Job;Daily;3;Social Interaction;2
+278;20;Non-binary;Chennai;Postgraduate;Intern;Monthly;1.5 ;Casual Dating;1
+279;18;Male;Mumbai;Undergraduate;Intern;Weekly;1;Social Interaction;4
+280;19;Male;Kolkata;Graduate;Part-time Job;Monthly;3;Finding a Partner;4
+281;19;Female;Pune;Undergraduate;Full-time Job;Weekly;1.5 ;Social Interaction;5
+282;21;Male;Mumbai;Postgraduate;Freelancer;Monthly;3;Casual Fun;1
+283;23;Male;Mumbai;Postgraduate;Student;Monthly;3;Social Interaction;3
+284;24;Female;Bangalore;Postgraduate;Student;Daily;1;Social Interaction;4
+285;22;Non-binary;Kolkata;Postgraduate;Full-time Job;Daily;0.5;Casual Dating;4
+286;20;Non-binary;Kolkata;Postgraduate;Part-time Job;Daily;0.5;Finding a Partner;2
+287;22;Male;Hyderabad;Graduate;Full-time Job;Weekly;3;Casual Fun;4
+288;18;Non-binary;Hyderabad;Postgraduate;Intern;Monthly;0.5;Casual Fun;3
+289;23;Female;Pune;Undergraduate;Full-time Job;Weekly;1;Casual Fun;1
+290;18;Non-binary;Kolkata;Undergraduate;Student;Weekly;1;Casual Dating;4
+291;25;Female;Pune;Postgraduate;Full-time Job;Daily;3;Social Interaction;2
+292;21;Male;Mumbai;Postgraduate;Student;Monthly;1;Casual Fun;4
+293;22;Non-binary;Pune;Postgraduate;Intern;Daily;1.5 ;Casual Dating;5
+294;23;Non-binary;Chennai;Undergraduate;Freelancer;Monthly;1;Casual Dating;1
+295;23;Female;Delhi;Undergraduate;Part-time Job;Monthly;3;Casual Fun;4
+296;18;Female;Mumbai;Postgraduate;Intern;Weekly;3;Casual Dating;4
+297;24;Male;Mumbai;Postgraduate;Freelancer;Weekly;3;Casual Fun;4
+298;19;Female;Pune;Undergraduate;Freelancer;Monthly;1;Finding a Partner;5
+299;22;Non-binary;Pune;Undergraduate;Intern;Daily;1.5 ;Casual Dating;5
+300;21;Female;Mumbai;Postgraduate;Student;Monthly;1.5 ;Social Interaction;3
+301;23;Male;Delhi;Postgraduate;Part-time Job;Daily;3;Finding a Partner;3
+302;25;Male;Hyderabad;Undergraduate;Full-time Job;Monthly;1;Casual Fun;2
+303;19;Non-binary;Hyderabad;Graduate;Full-time Job;Daily;0.5;Social Interaction;1
+304;23;Female;Chennai;Graduate;Part-time Job;Weekly;1;Social Interaction;3
+305;20;Female;Mumbai;Graduate;Freelancer;Daily;1.5 ;Social Interaction;2
+306;19;Male;Mumbai;Undergraduate;Full-time Job;Weekly;1.5 ;Finding a Partner;1
+307;20;Female;Kolkata;Postgraduate;Full-time Job;Weekly;3;Casual Fun;2
+308;18;Male;Pune;Graduate;Student;Monthly;1;Casual Dating;3
+309;22;Non-binary;Mumbai;Postgraduate;Student;Monthly;1.5 ;Social Interaction;2
+310;18;Female;Mumbai;Graduate;Freelancer;Daily;3;Finding a Partner;2
+311;25;Non-binary;Kolkata;Undergraduate;Freelancer;Monthly;0.5;Casual Fun;3
+312;23;Male;Delhi;Postgraduate;Full-time Job;Daily;1.5 ;Casual Fun;1
+313;23;Female;Pune;Graduate;Student;Daily;2;Finding a Partner;1
+314;21;Non-binary;Kolkata;Graduate;Full-time Job;Weekly;0.5;Casual Dating;3
+315;23;Female;Delhi;Undergraduate;Intern;Weekly;1;Casual Dating;2
+316;24;Female;Kolkata;Graduate;Freelancer;Daily;2;Finding a Partner;1
+317;21;Male;Kolkata;Undergraduate;Student;Weekly;2;Casual Dating;3
+318;20;Non-binary;Mumbai;Undergraduate;Student;Daily;1.5 ;Social Interaction;1
+319;24;Male;Pune;Postgraduate;Freelancer;Weekly;2;Casual Dating;1
+320;20;Female;Kolkata;Postgraduate;Freelancer;Weekly;2;Finding a Partner;1
+321;19;Female;Mumbai;Undergraduate;Full-time Job;Daily;2;Casual Dating;5
+322;20;Female;Chennai;Postgraduate;Part-time Job;Daily;1.5 ;Casual Dating;2
+323;25;Female;Delhi;Undergraduate;Part-time Job;Daily;0.5;Casual Dating;3
+324;22;Non-binary;Pune;Postgraduate;Freelancer;Weekly;0.5;Finding a Partner;3
+325;20;Female;Bangalore;Postgraduate;Full-time Job;Weekly;3;Casual Dating;4
+326;20;Female;Bangalore;Undergraduate;Part-time Job;Daily;1.5 ;Casual Fun;5
+327;19;Female;Kolkata;Graduate;Part-time Job;Monthly;1;Finding a Partner;4
+328;22;Male;Pune;Postgraduate;Student;Monthly;2;Casual Dating;2
+329;21;Female;Kolkata;Postgraduate;Freelancer;Monthly;1;Finding a Partner;5
+330;25;Non-binary;Pune;Graduate;Intern;Weekly;2;Finding a Partner;2
+331;25;Female;Bangalore;Postgraduate;Freelancer;Monthly;3;Casual Fun;5
+332;25;Male;Chennai;Graduate;Full-time Job;Monthly;0.5;Finding a Partner;5
+333;24;Non-binary;Delhi;Graduate;Intern;Weekly;0.5;Social Interaction;5
+334;20;Female;Delhi;Postgraduate;Intern;Daily;1.5 ;Casual Dating;1
+335;20;Female;Hyderabad;Graduate;Full-time Job;Monthly;1.5 ;Casual Dating;4
+336;20;Non-binary;Hyderabad;Undergraduate;Student;Weekly;3;Casual Dating;2
+337;24;Male;Kolkata;Graduate;Student;Monthly;2;Casual Dating;1
+338;23;Non-binary;Delhi;Undergraduate;Freelancer;Daily;3;Social Interaction;4
+339;24;Non-binary;Pune;Postgraduate;Part-time Job;Monthly;3;Casual Dating;3
+340;21;Non-binary;Delhi;Postgraduate;Student;Monthly;2;Finding a Partner;4
+341;19;Non-binary;Kolkata;Undergraduate;Freelancer;Weekly;1.5 ;Social Interaction;1
+342;23;Non-binary;Hyderabad;Graduate;Part-time Job;Daily;1.5 ;Finding a Partner;1
+343;18;Female;Mumbai;Postgraduate;Freelancer;Daily;2;Casual Dating;4
+344;20;Male;Bangalore;Graduate;Student;Daily;3;Finding a Partner;2
+345;25;Female;Pune;Postgraduate;Freelancer;Monthly;2;Casual Fun;1
+346;24;Male;Pune;Postgraduate;Intern;Daily;1;Social Interaction;3
+347;22;Female;Pune;Undergraduate;Full-time Job;Daily;1;Casual Fun;5
+348;22;Female;Pune;Graduate;Full-time Job;Monthly;2;Casual Fun;5
+349;18;Male;Delhi;Undergraduate;Intern;Monthly;1.5 ;Social Interaction;3
+350;21;Male;Mumbai;Graduate;Intern;Weekly;1.5 ;Social Interaction;4
+351;20;Male;Kolkata;Undergraduate;Freelancer;Monthly;0.5;Casual Fun;5
+352;23;Male;Mumbai;Postgraduate;Freelancer;Daily;0.5;Casual Fun;4
+353;18;Female;Kolkata;Postgraduate;Student;Daily;2;Casual Fun;1
+354;25;Non-binary;Bangalore;Postgraduate;Student;Monthly;0.5;Casual Dating;3
+355;24;Non-binary;Bangalore;Postgraduate;Intern;Daily;1;Social Interaction;1
+356;21;Non-binary;Hyderabad;Graduate;Student;Daily;3;Social Interaction;1
+357;23;Non-binary;Mumbai;Undergraduate;Full-time Job;Daily;1;Casual Fun;2
+358;25;Female;Kolkata;Undergraduate;Freelancer;Daily;3;Casual Fun;5
+359;18;Female;Mumbai;Undergraduate;Part-time Job;Weekly;0.5;Finding a Partner;5
+360;24;Female;Pune;Postgraduate;Freelancer;Weekly;2;Casual Fun;5
+361;22;Non-binary;Chennai;Undergraduate;Student;Weekly;1;Casual Fun;2
+362;22;Male;Kolkata;Postgraduate;Student;Weekly;0.5;Social Interaction;4
+363;25;Male;Pune;Undergraduate;Full-time Job;Daily;2;Casual Fun;1
+364;24;Female;Hyderabad;Graduate;Freelancer;Monthly;1.5 ;Social Interaction;2
+365;23;Non-binary;Chennai;Graduate;Student;Daily;2;Finding a Partner;5
+366;23;Female;Hyderabad;Graduate;Part-time Job;Weekly;1.5 ;Casual Dating;5
+367;18;Female;Mumbai;Undergraduate;Intern;Daily;1.5 ;Casual Dating;4
+368;23;Non-binary;Delhi;Postgraduate;Freelancer;Monthly;1.5 ;Finding a Partner;1
+369;19;Male;Bangalore;Graduate;Student;Daily;1;Casual Fun;2
+370;24;Female;Bangalore;Graduate;Freelancer;Daily;2;Casual Fun;5
+371;23;Female;Chennai;Undergraduate;Student;Daily;1;Social Interaction;5
+372;20;Female;Kolkata;Undergraduate;Full-time Job;Weekly;1;Casual Fun;3
+373;21;Male;Hyderabad;Postgraduate;Full-time Job;Monthly;1;Casual Dating;2
+374;20;Female;Chennai;Undergraduate;Student;Monthly;2;Social Interaction;5
+375;22;Non-binary;Mumbai;Postgraduate;Student;Weekly;1.5 ;Casual Dating;5
+376;23;Non-binary;Delhi;Undergraduate;Intern;Weekly;1.5 ;Casual Dating;2
+377;21;Male;Bangalore;Graduate;Full-time Job;Daily;3;Casual Dating;2
+378;21;Female;Kolkata;Undergraduate;Full-time Job;Weekly;0.5;Social Interaction;5
+379;24;Non-binary;Kolkata;Graduate;Part-time Job;Daily;1.5 ;Social Interaction;2
+380;24;Non-binary;Pune;Postgraduate;Intern;Daily;1;Finding a Partner;3
+381;18;Female;Kolkata;Graduate;Full-time Job;Daily;2;Social Interaction;1
+382;20;Non-binary;Mumbai;Postgraduate;Student;Monthly;1;Casual Fun;3
+383;23;Non-binary;Bangalore;Postgraduate;Intern;Weekly;0.5;Social Interaction;4
+384;22;Male;Kolkata;Undergraduate;Student;Monthly;1.5 ;Finding a Partner;4
+385;19;Female;Chennai;Postgraduate;Intern;Daily;0.5;Casual Fun;5
+386;18;Male;Hyderabad;Postgraduate;Student;Monthly;2;Casual Fun;3
+387;25;Non-binary;Kolkata;Postgraduate;Full-time Job;Daily;1;Casual Dating;5
+388;18;Female;Pune;Postgraduate;Intern;Monthly;3;Social Interaction;5
+389;23;Non-binary;Mumbai;Postgraduate;Student;Weekly;3;Social Interaction;1
+390;22;Male;Hyderabad;Undergraduate;Full-time Job;Weekly;1.5 ;Finding a Partner;1
+391;24;Female;Kolkata;Undergraduate;Student;Daily;1.5 ;Casual Fun;3
+392;21;Female;Bangalore;Postgraduate;Full-time Job;Monthly;1;Casual Dating;3
+393;24;Male;Delhi;Undergraduate;Full-time Job;Daily;1.5 ;Casual Fun;4
+394;24;Male;Kolkata;Postgraduate;Student;Monthly;1;Finding a Partner;1
+395;20;Non-binary;Mumbai;Undergraduate;Part-time Job;Monthly;3;Social Interaction;2
+396;23;Female;Delhi;Undergraduate;Intern;Daily;2;Casual Fun;3
+397;24;Male;Mumbai;Graduate;Student;Daily;2;Finding a Partner;3
+398;25;Female;Delhi;Graduate;Intern;Daily;1.5 ;Casual Dating;4
+399;21;Non-binary;Mumbai;Undergraduate;Freelancer;Weekly;2;Casual Dating;3
+400;24;Non-binary;Chennai;Graduate;Student;Monthly;1;Casual Dating;1
+401;25;Female;Delhi;Undergraduate;Full-time Job;Daily;1;Casual Dating;2
+402;20;Female;Kolkata;Graduate;Freelancer;Daily;3;Casual Dating;3
+403;21;Non-binary;Pune;Graduate;Intern;Weekly;2;Casual Fun;2
+404;20;Male;Mumbai;Graduate;Part-time Job;Daily;1;Casual Dating;1
+405;22;Non-binary;Kolkata;Undergraduate;Full-time Job;Monthly;3;Casual Dating;1
+406;25;Female;Mumbai;Graduate;Intern;Weekly;1.5 ;Social Interaction;2
+407;24;Male;Bangalore;Postgraduate;Student;Daily;3;Casual Dating;2
+408;19;Non-binary;Kolkata;Graduate;Freelancer;Daily;1.5 ;Casual Dating;5
+409;20;Female;Pune;Undergraduate;Student;Monthly;1;Finding a Partner;3
+410;19;Female;Bangalore;Undergraduate;Freelancer;Monthly;1.5 ;Casual Dating;2
+411;24;Non-binary;Pune;Graduate;Intern;Weekly;0.5;Casual Dating;1
+412;18;Female;Delhi;Undergraduate;Full-time Job;Monthly;0.5;Social Interaction;1
+413;21;Non-binary;Kolkata;Undergraduate;Full-time Job;Monthly;1;Casual Fun;1
+414;21;Male;Chennai;Undergraduate;Freelancer;Daily;3;Finding a Partner;2
+415;23;Male;Chennai;Postgraduate;Student;Daily;2;Finding a Partner;3
+416;25;Female;Pune;Graduate;Part-time Job;Monthly;0.5;Casual Dating;2
+417;21;Non-binary;Bangalore;Postgraduate;Intern;Monthly;3;Finding a Partner;4
+418;24;Male;Hyderabad;Undergraduate;Part-time Job;Daily;1.5 ;Casual Dating;5
+419;19;Female;Chennai;Graduate;Student;Monthly;0.5;Finding a Partner;4
+420;21;Non-binary;Mumbai;Graduate;Student;Weekly;3;Finding a Partner;1
+421;21;Male;Kolkata;Undergraduate;Freelancer;Monthly;0.5;Casual Fun;5
+422;24;Male;Kolkata;Undergraduate;Full-time Job;Daily;0.5;Finding a Partner;1
+423;22;Male;Bangalore;Graduate;Full-time Job;Daily;1.5 ;Finding a Partner;1
+424;21;Non-binary;Mumbai;Postgraduate;Student;Weekly;0.5;Casual Fun;4
+425;23;Male;Mumbai;Undergraduate;Freelancer;Daily;1;Casual Fun;3
+426;25;Male;Bangalore;Undergraduate;Student;Daily;1.5 ;Casual Dating;1
+427;22;Non-binary;Hyderabad;Undergraduate;Part-time Job;Weekly;2;Social Interaction;5
+428;25;Female;Delhi;Postgraduate;Freelancer;Monthly;1;Social Interaction;3
+429;19;Male;Bangalore;Postgraduate;Freelancer;Weekly;3;Casual Fun;5
+430;24;Male;Chennai;Postgraduate;Student;Daily;1.5 ;Casual Fun;4
+431;24;Non-binary;Hyderabad;Graduate;Student;Weekly;2;Casual Dating;2
+432;21;Male;Delhi;Postgraduate;Freelancer;Weekly;3;Finding a Partner;1
+433;22;Non-binary;Chennai;Undergraduate;Part-time Job;Monthly;2;Casual Fun;1
+434;24;Female;Delhi;Graduate;Full-time Job;Weekly;1.5 ;Casual Dating;2
+435;20;Male;Bangalore;Postgraduate;Student;Daily;2;Casual Fun;5
+436;19;Non-binary;Kolkata;Postgraduate;Freelancer;Monthly;1;Casual Dating;4
+437;18;Non-binary;Mumbai;Undergraduate;Freelancer;Daily;3;Casual Dating;5
+438;22;Female;Pune;Postgraduate;Student;Daily;1;Social Interaction;3
+439;23;Non-binary;Kolkata;Graduate;Student;Weekly;0.5;Finding a Partner;4
+440;19;Female;Hyderabad;Graduate;Freelancer;Monthly;1.5 ;Casual Dating;4
+441;22;Male;Bangalore;Postgraduate;Intern;Daily;2;Casual Dating;4
+442;22;Male;Delhi;Graduate;Part-time Job;Daily;0.5;Casual Dating;1
+443;23;Female;Chennai;Postgraduate;Part-time Job;Weekly;2;Finding a Partner;3
+444;19;Non-binary;Kolkata;Postgraduate;Freelancer;Daily;1;Casual Fun;5
+445;24;Non-binary;Bangalore;Postgraduate;Intern;Weekly;1.5 ;Casual Fun;1
+446;21;Non-binary;Kolkata;Postgraduate;Full-time Job;Weekly;3;Casual Dating;4
+447;18;Female;Chennai;Undergraduate;Full-time Job;Weekly;3;Social Interaction;2
+448;22;Male;Delhi;Undergraduate;Full-time Job;Monthly;0.5;Casual Fun;2
+449;22;Male;Hyderabad;Undergraduate;Intern;Weekly;2;Casual Fun;1
+450;19;Non-binary;Hyderabad;Postgraduate;Part-time Job;Daily;2;Casual Fun;5
+451;25;Female;Mumbai;Undergraduate;Student;Weekly;1;Finding a Partner;2
+452;24;Male;Hyderabad;Postgraduate;Intern;Monthly;1.5 ;Finding a Partner;1
+453;21;Female;Hyderabad;Graduate;Freelancer;Weekly;0.5;Finding a Partner;5
+454;24;Non-binary;Chennai;Graduate;Part-time Job;Weekly;2;Finding a Partner;4
+455;18;Male;Kolkata;Postgraduate;Part-time Job;Weekly;3;Casual Dating;2
+456;19;Non-binary;Chennai;Graduate;Student;Monthly;1;Casual Dating;3
+457;25;Non-binary;Chennai;Graduate;Full-time Job;Monthly;1.5 ;Casual Dating;5
+458;24;Female;Pune;Graduate;Part-time Job;Weekly;3;Casual Dating;2
+459;23;Female;Kolkata;Postgraduate;Student;Weekly;3;Casual Dating;2
+460;21;Female;Chennai;Postgraduate;Part-time Job;Daily;2;Social Interaction;1
+461;21;Male;Chennai;Postgraduate;Intern;Weekly;0.5;Finding a Partner;1
+462;21;Female;Pune;Graduate;Freelancer;Daily;1.5 ;Social Interaction;4
+463;25;Male;Hyderabad;Postgraduate;Intern;Monthly;3;Casual Dating;1
+464;21;Female;Kolkata;Postgraduate;Intern;Weekly;1;Social Interaction;3
+465;23;Male;Delhi;Graduate;Intern;Daily;1.5 ;Social Interaction;3
+466;25;Male;Delhi;Postgraduate;Intern;Daily;1;Casual Fun;4
+467;21;Non-binary;Kolkata;Graduate;Freelancer;Monthly;1;Finding a Partner;2
+468;24;Non-binary;Delhi;Undergraduate;Intern;Monthly;1.5 ;Finding a Partner;1
+469;23;Male;Hyderabad;Graduate;Full-time Job;Weekly;3;Casual Dating;3
+470;19;Female;Chennai;Postgraduate;Full-time Job;Monthly;0.5;Casual Dating;5
+471;21;Female;Mumbai;Postgraduate;Student;Weekly;1;Social Interaction;2
+472;19;Male;Delhi;Postgraduate;Student;Daily;0.5;Social Interaction;4
+473;19;Non-binary;Chennai;Graduate;Student;Weekly;3;Casual Dating;5
+474;25;Non-binary;Hyderabad;Undergraduate;Part-time Job;Weekly;3;Finding a Partner;2
+475;23;Male;Kolkata;Postgraduate;Full-time Job;Daily;1.5 ;Finding a Partner;2
+476;18;Female;Pune;Postgraduate;Intern;Daily;0.5;Social Interaction;1
+477;21;Male;Mumbai;Graduate;Part-time Job;Daily;1.5 ;Casual Fun;4
+478;25;Male;Bangalore;Undergraduate;Full-time Job;Daily;0.5;Finding a Partner;1
+479;20;Female;Delhi;Undergraduate;Full-time Job;Weekly;1.5 ;Casual Fun;5
+480;19;Female;Delhi;Graduate;Intern;Monthly;3;Casual Fun;2
+481;24;Non-binary;Pune;Undergraduate;Student;Weekly;1.5 ;Finding a Partner;1
+482;18;Female;Hyderabad;Postgraduate;Part-time Job;Monthly;3;Casual Fun;1
+483;18;Non-binary;Chennai;Graduate;Freelancer;Monthly;0.5;Finding a Partner;3
+484;20;Female;Pune;Undergraduate;Intern;Daily;3;Casual Dating;3
+485;24;Non-binary;Mumbai;Postgraduate;Student;Weekly;0.5;Social Interaction;4
+486;23;Male;Pune;Graduate;Student;Daily;0.5;Casual Dating;3
+487;21;Female;Mumbai;Graduate;Freelancer;Monthly;3;Finding a Partner;4
+488;19;Female;Mumbai;Graduate;Student;Monthly;1.5 ;Finding a Partner;3
+489;25;Female;Delhi;Graduate;Full-time Job;Monthly;3;Casual Fun;1
+490;25;Female;Chennai;Postgraduate;Student;Daily;1.5 ;Casual Dating;5
+491;25;Female;Kolkata;Graduate;Student;Daily;3;Casual Fun;3
+492;24;Female;Mumbai;Undergraduate;Part-time Job;Monthly;1;Casual Fun;5
+493;24;Female;Mumbai;Postgraduate;Intern;Weekly;2;Casual Dating;5
+494;20;Male;Mumbai;Undergraduate;Freelancer;Daily;0.5;Social Interaction;1
+495;19;Female;Chennai;Graduate;Intern;Weekly;0.5;Finding a Partner;3
+496;23;Female;Mumbai;Undergraduate;Intern;Weekly;1.5 ;Casual Dating;2
+497;23;Male;Mumbai;Postgraduate;Intern;Daily;2;Casual Fun;1
+498;22;Male;Hyderabad;Graduate;Freelancer;Monthly;2;Casual Fun;2
+499;21;Female;Kolkata;Graduate;Student;Daily;1.5 ;Casual Dating;3
+500;22;Male;Mumbai;Graduate;Part-time Job;Weekly;1.5 ;Casual Fun;2

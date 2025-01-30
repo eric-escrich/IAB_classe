@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="PH15"
+  DTS:DTSID="{F8EC9CE2-9653-4212-B3D2-B75D5CEC6E69}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=PH15;Initial Catalog=STA_citas;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-Integration Services-{F8EC9CE2-9653-4212-B3D2-B75D5CEC6E69}PH15;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

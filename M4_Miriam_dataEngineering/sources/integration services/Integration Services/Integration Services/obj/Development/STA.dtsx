@@ -1,0 +1,1474 @@
+<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="1/27/2025 8:32:10 PM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="PH15"
+  DTS:CreatorName="PH15\Eric Escrich"
+  DTS:DTSID="{0D0CA844-0B46-493E-A53C-1119DF290B28}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="16.0.5685.0"
+  DTS:LocaleID="3082"
+  DTS:ObjectName="STA"
+  DTS:PackageType="5"
+  DTS:VersionBuild="15"
+  DTS:VersionGUID="{96EA0219-3F5E-4DC3-8AAB-688A0DC6E12B}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[dating_matches]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{D4442468-2512-4FED-8C9A-1A05A543EDBD}"
+      DTS:ObjectName="dating_matches">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="3082"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="1252"
+          DTS:ConnectionString="C:\Users\Eric Escrich\Desktop\IAB_classe\M4_Miriam_dataEngineering\datasets\citas\dating_matches.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="User_ID"
+              DTS:DTSID="{9B815CF2-0B1B-4D0D-8C05-9081551E212E}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Age"
+              DTS:DTSID="{F242EFB6-80D9-4912-AA62-4B9C787CFF92}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Gender"
+              DTS:DTSID="{3206A1FE-9E7B-4F99-AC76-763155DDF98F}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Location"
+              DTS:DTSID="{5B654DF0-5D7E-49B4-83F7-AC025859B10F}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Education"
+              DTS:DTSID="{C903A459-1600-4448-97C8-18970DE4B717}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Occupation"
+              DTS:DTSID="{8DA60C66-5437-4055-B444-9B041F6D9D1A}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Usage_Frequency"
+              DTS:DTSID="{477AAD2F-FF72-4CE3-BBE7-09AFC190D739}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Daily_Usage_Time"
+              DTS:DTSID="{478D0C8C-4793-4C73-B8F8-D50515AEEF22}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Reason_for_Using"
+              DTS:DTSID="{74D3722D-C4F1-4C54-8D69-375BC67AB450}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Satisfaction"
+              DTS:DTSID="{564EFB9D-4D0F-4BF5-A4E3-4FE39FE5111F}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[dating_users]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{15E80975-D017-4288-8A1A-4C7284E20ABC}"
+      DTS:ObjectName="dating_users">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="3082"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="1252"
+          DTS:ConnectionString="C:\Users\Eric Escrich\Desktop\IAB_classe\M4_Miriam_dataEngineering\datasets\citas\dating_users.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="User ID"
+              DTS:DTSID="{D54BA80E-E8D4-4C78-B496-EF5EDD0D797E}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Matched With"
+              DTS:DTSID="{FB7C54EF-182D-4F4B-971B-1B93C94502BD}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Match Type"
+              DTS:DTSID="{E35AE2AC-6D38-4B4E-870C-8BB100E06338}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Chat Initiated"
+              DTS:DTSID="{221A1047-B4CB-4748-9726-EF10B525F885}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Start Date"
+              DTS:DTSID="{589F8C98-6186-4130-9C76-4D82BAF1E5B7}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="End Date"
+              DTS:DTSID="{40FF6836-92DB-4123-B8A0-5927B478B5B1}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Location"
+              DTS:DTSID="{30637203-C454-4F35-93CC-BD6F38F4D03C}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables />
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\STA_dating_matches"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Tarea Flujo de datos"
+      DTS:DTSID="{835D2C30-13B1-4613-A95E-DB18C2E310AF}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="STA_dating_matches"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\STA_dating_matches\dating_matches_csv"
+              componentClassID="Microsoft.FlatFileSource"
+              contactInfo="Origen de archivo plano;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;1"
+              description="Origen de archivo plano"
+              localeId="3082"
+              name="dating_matches_csv"
+              usesDispositions="true"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Especifica si las columnas de longitud cero se tratan como NULL."
+                  name="RetainNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica el nombre de una columna de salida que contiene el nombre de archivo. Si no se especifica ningún nombre, no se genera ninguna columna de salida con el nombre de archivo."
+                  name="FileNameColumnName"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\STA_dating_matches\dating_matches_csv.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[dating_matches]"
+                  connectionManagerRefId="Package.ConnectionManagers[dating_matches]"
+                  name="FlatFileConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\STA_dating_matches\dating_matches_csv.Outputs[Salida de origen de archivo plano]"
+                  name="Salida de origen de archivo plano">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\STA_dating_matches\dating_matches_csv.Outputs[Salida de origen de archivo plano].Columns[User_ID]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\STA_dating_matches\dating_matches_csv.Outputs[Salida de origen de archivo plano].ExternalColumns[User_ID]"
+                      length="50"
+                      lineageId="Package\STA_dating_matches\dating_matches_csv.Outputs[Salida de origen de archivo plano].Columns[User_ID]"
+                      name="User_ID"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si los datos están en formato binario."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\STA_dating_matches\dating_matches_csv.Outputs[Salida de origen de archivo plano].Columns[Age]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\STA_dating_matches\dating_matches_csv.Outputs[Salida de origen de archivo plano].ExternalColumns[Age]"
+                      length="50"
+                      lineageId="Package\STA_dating_matches\dating_matches_csv.Outputs[Salida de origen de archivo plano].Columns[Age]"
+                      name="Age"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si los datos están en formato binario."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\STA_dating_matches\dating_matches_csv.Outputs[Salida de origen de archivo plano].Columns[Gender]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\STA_dating_matches\dating_matches_csv.Outputs[Salida de origen de archivo plano].ExternalColumns[Gender]"
+                      length="50"
+                      lineageId="Package\STA_dating_matches\dating_matches_csv.Outputs[Salida de origen de archivo plano].Columns[Gender]"
+                      name="Gender"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si los datos están en formato binario."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\STA_dating_matches\dating_matches_csv.Outputs[Salida de origen de archivo plano].Columns[Location]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\STA_dating_matches\dating_matches_csv.Outputs[Salida de origen de archivo plano].ExternalColumns[Location]"
+                      length="50"
+                      lineageId="Package\STA_dating_matches\dating_matches_csv.Outputs[Salida de origen de archivo plano].Columns[Location]"
+                      name="Location"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si los datos están en formato binario."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\STA_dating_matches\dating_matches_csv.Outputs[Salida de origen de archivo plano].Columns[Education]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\STA_dating_matches\dating_matches_csv.Outputs[Salida de origen de archivo plano].ExternalColumns[Education]"
+                      length="50"
+                      lineageId="Package\STA_dating_matches\dating_matches_csv.Outputs[Salida de origen de archivo plano].Columns[Education]"
+                      name="Education"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si los datos están en formato binario."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\STA_dating_matches\dating_matches_csv.Outputs[Salida de origen de archivo plano].Columns[Occupation]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\STA_dating_matches\dating_matches_csv.Outputs[Salida de origen de archivo plano].ExternalColumns[Occupation]"
+                      length="50"
+                      lineageId="Package\STA_dating_matches\dating_matches_csv.Outputs[Salida de origen de archivo plano].Columns[Occupation]"
+                      name="Occupation"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si los datos están en formato binario."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\STA_dating_matches\dating_matches_csv.Outputs[Salida de origen de archivo plano].Columns[Usage_Frequency]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\STA_dating_matches\dating_matches_csv.Outputs[Salida de origen de archivo plano].ExternalColumns[Usage_Frequency]"
+                      length="50"
+                      lineageId="Package\STA_dating_matches\dating_matches_csv.Outputs[Salida de origen de archivo plano].Columns[Usage_Frequency]"
+                      name="Usage_Frequency"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si los datos están en formato binario."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\STA_dating_matches\dating_matches_csv.Outputs[Salida de origen de archivo plano].Columns[Daily_Usage_Time]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\STA_dating_matches\dating_matches_csv.Outputs[Salida de origen de archivo plano].ExternalColumns[Daily_Usage_Time]"
+                      length="50"
+                      lineageId="Package\STA_dating_matches\dating_matches_csv.Outputs[Salida de origen de archivo plano].Columns[Daily_Usage_Time]"
+                      name="Daily_Usage_Time"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si los datos están en formato binario."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\STA_dating_matches\dating_matches_csv.Outputs[Salida de origen de archivo plano].Columns[Reason_for_Using]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\STA_dating_matches\dating_matches_csv.Outputs[Salida de origen de archivo plano].ExternalColumns[Reason_for_Using]"
+                      length="50"
+                      lineageId="Package\STA_dating_matches\dating_matches_csv.Outputs[Salida de origen de archivo plano].Columns[Reason_for_Using]"
+                      name="Reason_for_Using"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si los datos están en formato binario."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\STA_dating_matches\dating_matches_csv.Outputs[Salida de origen de archivo plano].Columns[Satisfaction]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\STA_dating_matches\dating_matches_csv.Outputs[Salida de origen de archivo plano].ExternalColumns[Satisfaction]"
+                      length="50"
+                      lineageId="Package\STA_dating_matches\dating_matches_csv.Outputs[Salida de origen de archivo plano].Columns[Satisfaction]"
+                      name="Satisfaction"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si los datos están en formato binario."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\STA_dating_matches\dating_matches_csv.Outputs[Salida de origen de archivo plano].ExternalColumns[User_ID]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="User_ID" />
+                    <externalMetadataColumn
+                      refId="Package\STA_dating_matches\dating_matches_csv.Outputs[Salida de origen de archivo plano].ExternalColumns[Age]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Age" />
+                    <externalMetadataColumn
+                      refId="Package\STA_dating_matches\dating_matches_csv.Outputs[Salida de origen de archivo plano].ExternalColumns[Gender]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Gender" />
+                    <externalMetadataColumn
+                      refId="Package\STA_dating_matches\dating_matches_csv.Outputs[Salida de origen de archivo plano].ExternalColumns[Location]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Location" />
+                    <externalMetadataColumn
+                      refId="Package\STA_dating_matches\dating_matches_csv.Outputs[Salida de origen de archivo plano].ExternalColumns[Education]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Education" />
+                    <externalMetadataColumn
+                      refId="Package\STA_dating_matches\dating_matches_csv.Outputs[Salida de origen de archivo plano].ExternalColumns[Occupation]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Occupation" />
+                    <externalMetadataColumn
+                      refId="Package\STA_dating_matches\dating_matches_csv.Outputs[Salida de origen de archivo plano].ExternalColumns[Usage_Frequency]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Usage_Frequency" />
+                    <externalMetadataColumn
+                      refId="Package\STA_dating_matches\dating_matches_csv.Outputs[Salida de origen de archivo plano].ExternalColumns[Daily_Usage_Time]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Daily_Usage_Time" />
+                    <externalMetadataColumn
+                      refId="Package\STA_dating_matches\dating_matches_csv.Outputs[Salida de origen de archivo plano].ExternalColumns[Reason_for_Using]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Reason_for_Using" />
+                    <externalMetadataColumn
+                      refId="Package\STA_dating_matches\dating_matches_csv.Outputs[Salida de origen de archivo plano].ExternalColumns[Satisfaction]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Satisfaction" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\STA_dating_matches\dating_matches_csv.Outputs[Salida de error de origen de archivo plano]"
+                  isErrorOut="true"
+                  name="Salida de error de origen de archivo plano">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\STA_dating_matches\dating_matches_csv.Outputs[Salida de error de origen de archivo plano].Columns[Columna de salida de error de origen de archivo plano]"
+                      codePage="1252"
+                      dataType="text"
+                      description="Columna de salida de error de origen de archivo plano"
+                      lineageId="Package\STA_dating_matches\dating_matches_csv.Outputs[Salida de error de origen de archivo plano].Columns[Columna de salida de error de origen de archivo plano]"
+                      name="Columna de salida de error de origen de archivo plano" />
+                    <outputColumn
+                      refId="Package\STA_dating_matches\dating_matches_csv.Outputs[Salida de error de origen de archivo plano].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\STA_dating_matches\dating_matches_csv.Outputs[Salida de error de origen de archivo plano].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\STA_dating_matches\dating_matches_csv.Outputs[Salida de error de origen de archivo plano].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\STA_dating_matches\dating_matches_csv.Outputs[Salida de error de origen de archivo plano].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\STA_dating_matches\STA_dating_matches"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="Destino de OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;4"
+              description="Destino de OLE DB"
+              name="STA_dating_matches"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Número de segundos antes de que se agote el tiempo de espera de un comando. Un valor de 0 indica un tiempo de espera infinito."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica el nombre del objeto de base de datos usado para abrir un conjunto de filas."
+                  name="OpenRowset">[STA_dating_matches]</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica la variable que contiene el nombre del objeto de base de datos usado para abrir un conjunto de filas."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="Comando SQL para ejecutar."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica la página de códigos de columna para utilizar cuando la información de página de códigos no está disponible en el origen de datos."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Fuerza el uso del valor de la propiedad DefaultCodePage al describir datos de caracteres."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica el modo utilizado para obtener acceso a la base de datos."
+                  name="AccessMode"
+                  typeConverter="AccessMode">3</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indica si los valores proporcionados para columnas de identidad se van a copiar al destino. Si es False, los valores de las columnas de identidad se generan automáticamente en el destino. Solo se aplica si está activada la carga rápida."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indica si las columnas que contienen NULL tendrán NULL insertado en el destino. Si es False, las columnas que contienen NULL tendrán sus valores predeterminados insertados en el destino. Solo se aplica si está activada la carga rápida."
+                  name="FastLoadKeepNulls">true</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica opciones para usar con la carga rápida. Solo se aplica si está activada la carga rápida."
+                  name="FastLoadOptions">TABLOCK</property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica cuándo se emiten confirmaciones durante la inserción de datos. El valor 0 especifica que se emitirá una confirmación al final de la inserción de datos. Solo se aplica si está activada la carga rápida."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\STA_dating_matches\STA_dating_matches.Connections[OleDbConnection]"
+                  connectionManagerID="{F8EC9CE2-9653-4212-B3D2-B75D5CEC6E69}:external"
+                  connectionManagerRefId="Project.ConnectionManagers[PH15]"
+                  description="La conexión de tiempo de ejecución OLE DB usada para obtener acceso a la base de datos."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\STA_dating_matches\STA_dating_matches.Inputs[Entrada de destino de OLE DB]"
+                  errorOrTruncationOperation="Insertar"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="Entrada de destino de OLE DB">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\STA_dating_matches\STA_dating_matches.Inputs[Entrada de destino de OLE DB].Columns[User_ID]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="User_ID"
+                      externalMetadataColumnId="Package\STA_dating_matches\STA_dating_matches.Inputs[Entrada de destino de OLE DB].ExternalColumns[User_ID]"
+                      lineageId="Package\STA_dating_matches\dating_matches_csv.Outputs[Salida de origen de archivo plano].Columns[User_ID]" />
+                    <inputColumn
+                      refId="Package\STA_dating_matches\STA_dating_matches.Inputs[Entrada de destino de OLE DB].Columns[Age]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Age"
+                      externalMetadataColumnId="Package\STA_dating_matches\STA_dating_matches.Inputs[Entrada de destino de OLE DB].ExternalColumns[Age]"
+                      lineageId="Package\STA_dating_matches\dating_matches_csv.Outputs[Salida de origen de archivo plano].Columns[Age]" />
+                    <inputColumn
+                      refId="Package\STA_dating_matches\STA_dating_matches.Inputs[Entrada de destino de OLE DB].Columns[Gender]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Gender"
+                      externalMetadataColumnId="Package\STA_dating_matches\STA_dating_matches.Inputs[Entrada de destino de OLE DB].ExternalColumns[Gender]"
+                      lineageId="Package\STA_dating_matches\dating_matches_csv.Outputs[Salida de origen de archivo plano].Columns[Gender]" />
+                    <inputColumn
+                      refId="Package\STA_dating_matches\STA_dating_matches.Inputs[Entrada de destino de OLE DB].Columns[Location]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Location"
+                      externalMetadataColumnId="Package\STA_dating_matches\STA_dating_matches.Inputs[Entrada de destino de OLE DB].ExternalColumns[Location]"
+                      lineageId="Package\STA_dating_matches\dating_matches_csv.Outputs[Salida de origen de archivo plano].Columns[Location]" />
+                    <inputColumn
+                      refId="Package\STA_dating_matches\STA_dating_matches.Inputs[Entrada de destino de OLE DB].Columns[Education]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Education"
+                      externalMetadataColumnId="Package\STA_dating_matches\STA_dating_matches.Inputs[Entrada de destino de OLE DB].ExternalColumns[Education]"
+                      lineageId="Package\STA_dating_matches\dating_matches_csv.Outputs[Salida de origen de archivo plano].Columns[Education]" />
+                    <inputColumn
+                      refId="Package\STA_dating_matches\STA_dating_matches.Inputs[Entrada de destino de OLE DB].Columns[Occupation]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Occupation"
+                      externalMetadataColumnId="Package\STA_dating_matches\STA_dating_matches.Inputs[Entrada de destino de OLE DB].ExternalColumns[Occupation]"
+                      lineageId="Package\STA_dating_matches\dating_matches_csv.Outputs[Salida de origen de archivo plano].Columns[Occupation]" />
+                    <inputColumn
+                      refId="Package\STA_dating_matches\STA_dating_matches.Inputs[Entrada de destino de OLE DB].Columns[Usage_Frequency]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Usage_Frequency"
+                      externalMetadataColumnId="Package\STA_dating_matches\STA_dating_matches.Inputs[Entrada de destino de OLE DB].ExternalColumns[Usage_Frequency]"
+                      lineageId="Package\STA_dating_matches\dating_matches_csv.Outputs[Salida de origen de archivo plano].Columns[Usage_Frequency]" />
+                    <inputColumn
+                      refId="Package\STA_dating_matches\STA_dating_matches.Inputs[Entrada de destino de OLE DB].Columns[Daily_Usage_Time]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Daily_Usage_Time"
+                      externalMetadataColumnId="Package\STA_dating_matches\STA_dating_matches.Inputs[Entrada de destino de OLE DB].ExternalColumns[Daily_Usage_Time]"
+                      lineageId="Package\STA_dating_matches\dating_matches_csv.Outputs[Salida de origen de archivo plano].Columns[Daily_Usage_Time]" />
+                    <inputColumn
+                      refId="Package\STA_dating_matches\STA_dating_matches.Inputs[Entrada de destino de OLE DB].Columns[Reason_for_Using]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Reason_for_Using"
+                      externalMetadataColumnId="Package\STA_dating_matches\STA_dating_matches.Inputs[Entrada de destino de OLE DB].ExternalColumns[Reason_for_Using]"
+                      lineageId="Package\STA_dating_matches\dating_matches_csv.Outputs[Salida de origen de archivo plano].Columns[Reason_for_Using]" />
+                    <inputColumn
+                      refId="Package\STA_dating_matches\STA_dating_matches.Inputs[Entrada de destino de OLE DB].Columns[Satisfaction]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Satisfaction"
+                      externalMetadataColumnId="Package\STA_dating_matches\STA_dating_matches.Inputs[Entrada de destino de OLE DB].ExternalColumns[Satisfaction]"
+                      lineageId="Package\STA_dating_matches\dating_matches_csv.Outputs[Salida de origen de archivo plano].Columns[Satisfaction]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\STA_dating_matches\STA_dating_matches.Inputs[Entrada de destino de OLE DB].ExternalColumns[User_ID]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="User_ID" />
+                    <externalMetadataColumn
+                      refId="Package\STA_dating_matches\STA_dating_matches.Inputs[Entrada de destino de OLE DB].ExternalColumns[Age]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Age" />
+                    <externalMetadataColumn
+                      refId="Package\STA_dating_matches\STA_dating_matches.Inputs[Entrada de destino de OLE DB].ExternalColumns[Gender]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Gender" />
+                    <externalMetadataColumn
+                      refId="Package\STA_dating_matches\STA_dating_matches.Inputs[Entrada de destino de OLE DB].ExternalColumns[Location]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Location" />
+                    <externalMetadataColumn
+                      refId="Package\STA_dating_matches\STA_dating_matches.Inputs[Entrada de destino de OLE DB].ExternalColumns[Education]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Education" />
+                    <externalMetadataColumn
+                      refId="Package\STA_dating_matches\STA_dating_matches.Inputs[Entrada de destino de OLE DB].ExternalColumns[Occupation]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Occupation" />
+                    <externalMetadataColumn
+                      refId="Package\STA_dating_matches\STA_dating_matches.Inputs[Entrada de destino de OLE DB].ExternalColumns[Usage_Frequency]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Usage_Frequency" />
+                    <externalMetadataColumn
+                      refId="Package\STA_dating_matches\STA_dating_matches.Inputs[Entrada de destino de OLE DB].ExternalColumns[Daily_Usage_Time]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Daily_Usage_Time" />
+                    <externalMetadataColumn
+                      refId="Package\STA_dating_matches\STA_dating_matches.Inputs[Entrada de destino de OLE DB].ExternalColumns[Reason_for_Using]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Reason_for_Using" />
+                    <externalMetadataColumn
+                      refId="Package\STA_dating_matches\STA_dating_matches.Inputs[Entrada de destino de OLE DB].ExternalColumns[Satisfaction]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Satisfaction" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\STA_dating_matches\STA_dating_matches.Outputs[Salida de error de destino de OLE DB]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Salida de error de destino de OLE DB"
+                  synchronousInputId="Package\STA_dating_matches\STA_dating_matches.Inputs[Entrada de destino de OLE DB]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\STA_dating_matches\STA_dating_matches.Outputs[Salida de error de destino de OLE DB].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\STA_dating_matches\STA_dating_matches.Outputs[Salida de error de destino de OLE DB].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\STA_dating_matches\STA_dating_matches.Outputs[Salida de error de destino de OLE DB].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\STA_dating_matches\STA_dating_matches.Outputs[Salida de error de destino de OLE DB].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\STA_dating_matches.Paths[Salida de origen de archivo plano]"
+              endId="Package\STA_dating_matches\STA_dating_matches.Inputs[Entrada de destino de OLE DB]"
+              name="Salida de origen de archivo plano"
+              startId="Package\STA_dating_matches\dating_matches_csv.Outputs[Salida de origen de archivo plano]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\STA_dating_users"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Tarea Flujo de datos"
+      DTS:DTSID="{851C59D2-63B9-47E5-A133-ECC24AB27B84}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="STA_dating_users"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\STA_dating_users\dating_users_csv"
+              componentClassID="Microsoft.FlatFileSource"
+              contactInfo="Origen de archivo plano;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;1"
+              description="Origen de archivo plano"
+              localeId="3082"
+              name="dating_users_csv"
+              usesDispositions="true"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Especifica si las columnas de longitud cero se tratan como NULL."
+                  name="RetainNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica el nombre de una columna de salida que contiene el nombre de archivo. Si no se especifica ningún nombre, no se genera ninguna columna de salida con el nombre de archivo."
+                  name="FileNameColumnName"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\STA_dating_users\dating_users_csv.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[dating_users]"
+                  connectionManagerRefId="Package.ConnectionManagers[dating_users]"
+                  name="FlatFileConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\STA_dating_users\dating_users_csv.Outputs[Salida de origen de archivo plano]"
+                  name="Salida de origen de archivo plano">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\STA_dating_users\dating_users_csv.Outputs[Salida de origen de archivo plano].Columns[User ID]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\STA_dating_users\dating_users_csv.Outputs[Salida de origen de archivo plano].ExternalColumns[User ID]"
+                      length="50"
+                      lineageId="Package\STA_dating_users\dating_users_csv.Outputs[Salida de origen de archivo plano].Columns[User ID]"
+                      name="User ID"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si los datos están en formato binario."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\STA_dating_users\dating_users_csv.Outputs[Salida de origen de archivo plano].Columns[Matched With]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\STA_dating_users\dating_users_csv.Outputs[Salida de origen de archivo plano].ExternalColumns[Matched With]"
+                      length="50"
+                      lineageId="Package\STA_dating_users\dating_users_csv.Outputs[Salida de origen de archivo plano].Columns[Matched With]"
+                      name="Matched With"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si los datos están en formato binario."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\STA_dating_users\dating_users_csv.Outputs[Salida de origen de archivo plano].Columns[Match Type]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\STA_dating_users\dating_users_csv.Outputs[Salida de origen de archivo plano].ExternalColumns[Match Type]"
+                      length="50"
+                      lineageId="Package\STA_dating_users\dating_users_csv.Outputs[Salida de origen de archivo plano].Columns[Match Type]"
+                      name="Match Type"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si los datos están en formato binario."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\STA_dating_users\dating_users_csv.Outputs[Salida de origen de archivo plano].Columns[Chat Initiated]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\STA_dating_users\dating_users_csv.Outputs[Salida de origen de archivo plano].ExternalColumns[Chat Initiated]"
+                      length="50"
+                      lineageId="Package\STA_dating_users\dating_users_csv.Outputs[Salida de origen de archivo plano].Columns[Chat Initiated]"
+                      name="Chat Initiated"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si los datos están en formato binario."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\STA_dating_users\dating_users_csv.Outputs[Salida de origen de archivo plano].Columns[Start Date]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\STA_dating_users\dating_users_csv.Outputs[Salida de origen de archivo plano].ExternalColumns[Start Date]"
+                      length="50"
+                      lineageId="Package\STA_dating_users\dating_users_csv.Outputs[Salida de origen de archivo plano].Columns[Start Date]"
+                      name="Start Date"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si los datos están en formato binario."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\STA_dating_users\dating_users_csv.Outputs[Salida de origen de archivo plano].Columns[End Date]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\STA_dating_users\dating_users_csv.Outputs[Salida de origen de archivo plano].ExternalColumns[End Date]"
+                      length="50"
+                      lineageId="Package\STA_dating_users\dating_users_csv.Outputs[Salida de origen de archivo plano].Columns[End Date]"
+                      name="End Date"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si los datos están en formato binario."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\STA_dating_users\dating_users_csv.Outputs[Salida de origen de archivo plano].Columns[Location]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\STA_dating_users\dating_users_csv.Outputs[Salida de origen de archivo plano].ExternalColumns[Location]"
+                      length="50"
+                      lineageId="Package\STA_dating_users\dating_users_csv.Outputs[Salida de origen de archivo plano].Columns[Location]"
+                      name="Location"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si los datos están en formato binario."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\STA_dating_users\dating_users_csv.Outputs[Salida de origen de archivo plano].ExternalColumns[User ID]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="User ID" />
+                    <externalMetadataColumn
+                      refId="Package\STA_dating_users\dating_users_csv.Outputs[Salida de origen de archivo plano].ExternalColumns[Matched With]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Matched With" />
+                    <externalMetadataColumn
+                      refId="Package\STA_dating_users\dating_users_csv.Outputs[Salida de origen de archivo plano].ExternalColumns[Match Type]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Match Type" />
+                    <externalMetadataColumn
+                      refId="Package\STA_dating_users\dating_users_csv.Outputs[Salida de origen de archivo plano].ExternalColumns[Chat Initiated]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Chat Initiated" />
+                    <externalMetadataColumn
+                      refId="Package\STA_dating_users\dating_users_csv.Outputs[Salida de origen de archivo plano].ExternalColumns[Start Date]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Start Date" />
+                    <externalMetadataColumn
+                      refId="Package\STA_dating_users\dating_users_csv.Outputs[Salida de origen de archivo plano].ExternalColumns[End Date]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="End Date" />
+                    <externalMetadataColumn
+                      refId="Package\STA_dating_users\dating_users_csv.Outputs[Salida de origen de archivo plano].ExternalColumns[Location]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Location" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\STA_dating_users\dating_users_csv.Outputs[Salida de error de origen de archivo plano]"
+                  isErrorOut="true"
+                  name="Salida de error de origen de archivo plano">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\STA_dating_users\dating_users_csv.Outputs[Salida de error de origen de archivo plano].Columns[Columna de salida de error de origen de archivo plano]"
+                      codePage="1252"
+                      dataType="text"
+                      description="Columna de salida de error de origen de archivo plano"
+                      lineageId="Package\STA_dating_users\dating_users_csv.Outputs[Salida de error de origen de archivo plano].Columns[Columna de salida de error de origen de archivo plano]"
+                      name="Columna de salida de error de origen de archivo plano" />
+                    <outputColumn
+                      refId="Package\STA_dating_users\dating_users_csv.Outputs[Salida de error de origen de archivo plano].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\STA_dating_users\dating_users_csv.Outputs[Salida de error de origen de archivo plano].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\STA_dating_users\dating_users_csv.Outputs[Salida de error de origen de archivo plano].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\STA_dating_users\dating_users_csv.Outputs[Salida de error de origen de archivo plano].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\STA_dating_users\STA_dating_users"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="Destino de OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;4"
+              description="Destino de OLE DB"
+              name="STA_dating_users"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Número de segundos antes de que se agote el tiempo de espera de un comando. Un valor de 0 indica un tiempo de espera infinito."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica el nombre del objeto de base de datos usado para abrir un conjunto de filas."
+                  name="OpenRowset">[STA_dating_users]</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica la variable que contiene el nombre del objeto de base de datos usado para abrir un conjunto de filas."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="Comando SQL para ejecutar."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica la página de códigos de columna para utilizar cuando la información de página de códigos no está disponible en el origen de datos."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Fuerza el uso del valor de la propiedad DefaultCodePage al describir datos de caracteres."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica el modo utilizado para obtener acceso a la base de datos."
+                  name="AccessMode"
+                  typeConverter="AccessMode">3</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indica si los valores proporcionados para columnas de identidad se van a copiar al destino. Si es False, los valores de las columnas de identidad se generan automáticamente en el destino. Solo se aplica si está activada la carga rápida."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indica si las columnas que contienen NULL tendrán NULL insertado en el destino. Si es False, las columnas que contienen NULL tendrán sus valores predeterminados insertados en el destino. Solo se aplica si está activada la carga rápida."
+                  name="FastLoadKeepNulls">true</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica opciones para usar con la carga rápida. Solo se aplica si está activada la carga rápida."
+                  name="FastLoadOptions">TABLOCK</property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica cuándo se emiten confirmaciones durante la inserción de datos. El valor 0 especifica que se emitirá una confirmación al final de la inserción de datos. Solo se aplica si está activada la carga rápida."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\STA_dating_users\STA_dating_users.Connections[OleDbConnection]"
+                  connectionManagerID="{F8EC9CE2-9653-4212-B3D2-B75D5CEC6E69}:external"
+                  connectionManagerRefId="Project.ConnectionManagers[PH15]"
+                  description="La conexión de tiempo de ejecución OLE DB usada para obtener acceso a la base de datos."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\STA_dating_users\STA_dating_users.Inputs[Entrada de destino de OLE DB]"
+                  errorOrTruncationOperation="Insertar"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="Entrada de destino de OLE DB">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\STA_dating_users\STA_dating_users.Inputs[Entrada de destino de OLE DB].Columns[User ID]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="User ID"
+                      externalMetadataColumnId="Package\STA_dating_users\STA_dating_users.Inputs[Entrada de destino de OLE DB].ExternalColumns[User ID]"
+                      lineageId="Package\STA_dating_users\dating_users_csv.Outputs[Salida de origen de archivo plano].Columns[User ID]" />
+                    <inputColumn
+                      refId="Package\STA_dating_users\STA_dating_users.Inputs[Entrada de destino de OLE DB].Columns[Matched With]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Matched With"
+                      externalMetadataColumnId="Package\STA_dating_users\STA_dating_users.Inputs[Entrada de destino de OLE DB].ExternalColumns[Matched With]"
+                      lineageId="Package\STA_dating_users\dating_users_csv.Outputs[Salida de origen de archivo plano].Columns[Matched With]" />
+                    <inputColumn
+                      refId="Package\STA_dating_users\STA_dating_users.Inputs[Entrada de destino de OLE DB].Columns[Match Type]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Match Type"
+                      externalMetadataColumnId="Package\STA_dating_users\STA_dating_users.Inputs[Entrada de destino de OLE DB].ExternalColumns[Match Type]"
+                      lineageId="Package\STA_dating_users\dating_users_csv.Outputs[Salida de origen de archivo plano].Columns[Match Type]" />
+                    <inputColumn
+                      refId="Package\STA_dating_users\STA_dating_users.Inputs[Entrada de destino de OLE DB].Columns[Chat Initiated]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Chat Initiated"
+                      externalMetadataColumnId="Package\STA_dating_users\STA_dating_users.Inputs[Entrada de destino de OLE DB].ExternalColumns[Chat Initiated]"
+                      lineageId="Package\STA_dating_users\dating_users_csv.Outputs[Salida de origen de archivo plano].Columns[Chat Initiated]" />
+                    <inputColumn
+                      refId="Package\STA_dating_users\STA_dating_users.Inputs[Entrada de destino de OLE DB].Columns[Start Date]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Start Date"
+                      externalMetadataColumnId="Package\STA_dating_users\STA_dating_users.Inputs[Entrada de destino de OLE DB].ExternalColumns[Start Date]"
+                      lineageId="Package\STA_dating_users\dating_users_csv.Outputs[Salida de origen de archivo plano].Columns[Start Date]" />
+                    <inputColumn
+                      refId="Package\STA_dating_users\STA_dating_users.Inputs[Entrada de destino de OLE DB].Columns[End Date]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="End Date"
+                      externalMetadataColumnId="Package\STA_dating_users\STA_dating_users.Inputs[Entrada de destino de OLE DB].ExternalColumns[End Date]"
+                      lineageId="Package\STA_dating_users\dating_users_csv.Outputs[Salida de origen de archivo plano].Columns[End Date]" />
+                    <inputColumn
+                      refId="Package\STA_dating_users\STA_dating_users.Inputs[Entrada de destino de OLE DB].Columns[Location]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Location"
+                      externalMetadataColumnId="Package\STA_dating_users\STA_dating_users.Inputs[Entrada de destino de OLE DB].ExternalColumns[Location]"
+                      lineageId="Package\STA_dating_users\dating_users_csv.Outputs[Salida de origen de archivo plano].Columns[Location]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\STA_dating_users\STA_dating_users.Inputs[Entrada de destino de OLE DB].ExternalColumns[User ID]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="User ID" />
+                    <externalMetadataColumn
+                      refId="Package\STA_dating_users\STA_dating_users.Inputs[Entrada de destino de OLE DB].ExternalColumns[Matched With]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Matched With" />
+                    <externalMetadataColumn
+                      refId="Package\STA_dating_users\STA_dating_users.Inputs[Entrada de destino de OLE DB].ExternalColumns[Match Type]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Match Type" />
+                    <externalMetadataColumn
+                      refId="Package\STA_dating_users\STA_dating_users.Inputs[Entrada de destino de OLE DB].ExternalColumns[Chat Initiated]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Chat Initiated" />
+                    <externalMetadataColumn
+                      refId="Package\STA_dating_users\STA_dating_users.Inputs[Entrada de destino de OLE DB].ExternalColumns[Start Date]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Start Date" />
+                    <externalMetadataColumn
+                      refId="Package\STA_dating_users\STA_dating_users.Inputs[Entrada de destino de OLE DB].ExternalColumns[End Date]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="End Date" />
+                    <externalMetadataColumn
+                      refId="Package\STA_dating_users\STA_dating_users.Inputs[Entrada de destino de OLE DB].ExternalColumns[Location]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Location" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\STA_dating_users\STA_dating_users.Outputs[Salida de error de destino de OLE DB]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Salida de error de destino de OLE DB"
+                  synchronousInputId="Package\STA_dating_users\STA_dating_users.Inputs[Entrada de destino de OLE DB]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\STA_dating_users\STA_dating_users.Outputs[Salida de error de destino de OLE DB].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\STA_dating_users\STA_dating_users.Outputs[Salida de error de destino de OLE DB].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\STA_dating_users\STA_dating_users.Outputs[Salida de error de destino de OLE DB].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\STA_dating_users\STA_dating_users.Outputs[Salida de error de destino de OLE DB].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\STA_dating_users.Paths[Salida de origen de archivo plano]"
+              endId="Package\STA_dating_users\STA_dating_users.Inputs[Entrada de destino de OLE DB]"
+              name="Salida de origen de archivo plano"
+              startId="Package\STA_dating_users\dating_users_csv.Outputs[Salida de origen de archivo plano]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:PrecedenceConstraints>
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Restricción]"
+      DTS:CreationName=""
+      DTS:DTSID="{A54A5746-A5A0-4DF8-B7B4-B6AF68CF6786}"
+      DTS:From="Package\STA_dating_users"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Restricción"
+      DTS:To="Package\STA_dating_matches" />
+  </DTS:PrecedenceConstraints>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--Esta sección CDATA contiene la información de diseño del paquete. Esta sección incluye información como, por ejemplo, las coordenadas (x,y), el ancho y el alto.-->
+<!--Si edita manualmente esta sección y comete un error, puede eliminarlo. -->
+<!--El paquete podrá cargarse normalmente, pero se perderá la información de diseño anterior y el diseñador reorganizará los elementos automáticamente en la superficie de diseño.-->
+<Objects
+  Version="8">
+  <!--Cada uno de los nodos siguientes contiene propiedades que no afectan al comportamiento en tiempo de ejecución.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="177.6,41.6"
+          Id="Package\STA_dating_matches"
+          TopLeft="100.499994809429,107.766665955517" />
+        <NodeLayout
+          Size="164,41.6"
+          Id="Package\STA_dating_users"
+          TopLeft="391.33331225233,107.766665955517" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Restricción]"
+          TopLeft="391.33331225233,128.566665955517">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-113.233317442901,0"
+              Start="0,0"
+              End="-105.733317442901,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="-105.733317442901,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+  <TaskHost
+    design-time-name="Package\STA_dating_matches">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="172.8,41.6"
+          Id="Package\STA_dating_matches\dating_matches_csv"
+          TopLeft="347.499981013438,110.933332561917" />
+        <NodeLayout
+          Size="177.6,41.6"
+          Id="Package\STA_dating_matches\STA_dating_matches"
+          TopLeft="346.333316350149,264.299998408953" />
+        <EdgeLayout
+          Id="Package\STA_dating_matches.Paths[Salida de origen de archivo plano]"
+          TopLeft="434.516648681793,152.533332561917">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,111.766665847036"
+              Start="0,0"
+              End="0,104.266665847036">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,104.266665847036" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\STA_dating_matches\STA_dating_matches">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\STA_dating_users">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="159.2,41.6"
+          Id="Package\STA_dating_users\dating_users_csv"
+          TopLeft="422.499993786216,96.4999986439943" />
+        <NodeLayout
+          Size="164,41.6"
+          Id="Package\STA_dating_users\STA_dating_users"
+          TopLeft="422.499994233251,297.499996095896" />
+        <EdgeLayout
+          Id="Package\STA_dating_users.Paths[Salida de origen de archivo plano]"
+          TopLeft="503.299994009733,138.099998643994">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,159.399997451901"
+              Start="0,0"
+              End="0,151.899997451901">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,151.899997451901" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\STA_dating_users\STA_dating_users">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>
