@@ -11,8 +11,8 @@
   DTS:LocaleID="3082"
   DTS:ObjectName="STA"
   DTS:PackageType="5"
-  DTS:VersionBuild="15"
-  DTS:VersionGUID="{96EA0219-3F5E-4DC3-8AAB-688A0DC6E12B}">
+  DTS:VersionBuild="17"
+  DTS:VersionGUID="{B99DEF50-0380-4617-B811-E5D0C1C4B470}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -1338,25 +1338,25 @@
         <NodeLayout
           Size="177.6,41.6"
           Id="Package\STA_dating_matches"
-          TopLeft="100.499994809429,107.766665955517" />
+          TopLeft="342.999981559814,249.899998300473" />
         <NodeLayout
           Size="164,41.6"
           Id="Package\STA_dating_users"
-          TopLeft="391.33331225233,107.766665955517" />
+          TopLeft="347.999981286626,45.3666663894388" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restricción]"
-          TopLeft="391.33331225233,128.566665955517">
+          TopLeft="430.89998142322,86.9666663894388">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-113.233317442901,0"
+              EndConnector="0,162.933331911034"
               Start="0,0"
-              End="-105.733317442901,0">
+              End="0,155.433331911034">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="-105.733317442901,0" />
+                    End="0,155.433331911034" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -1425,13 +1425,13 @@
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="159.2,41.6"
-          Id="Package\STA_dating_users\dating_users_csv"
-          TopLeft="422.499993786216,96.4999986439943" />
-        <NodeLayout
           Size="164,41.6"
           Id="Package\STA_dating_users\STA_dating_users"
           TopLeft="422.499994233251,297.499996095896" />
+        <NodeLayout
+          Size="159.2,41.6"
+          Id="Package\STA_dating_users\dating_users_csv"
+          TopLeft="422.499993786216,96.4999986439943" />
         <EdgeLayout
           Id="Package\STA_dating_users.Paths[Salida de origen de archivo plano]"
           TopLeft="503.299994009733,138.099998643994">
