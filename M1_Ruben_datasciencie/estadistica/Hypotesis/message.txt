@@ -1,0 +1,77 @@
+Distribuciones y Funciones
+1. Distribución Exponencial (continua)
+Aplicación: Modela el tiempo entre dos eventos en un proceso de Poisson. Se utiliza para calcular el tiempo de espera o duración de un evento.
+Ejemplo: El tiempo entre llegadas de llamadas telefónicas a una central.
+
+Métodos útiles:
+
+ppf (Percent-Point Function): Para obtener el valor de un tiempo dado un porcentaje acumulado.
+
+python
+Copia
+Modifica
+from scipy.stats import expon
+ppf_value = expon.ppf(0.95, loc=0, scale=1)  # Valor correspondiente al 95% de probabilidad acumulada
+cdf (Cumulative Distribution Function): Para calcular la probabilidad acumulada hasta cierto valor.
+
+python
+Copia
+Modifica
+cdf_value = expon.cdf(2, loc=0, scale=1)  # Probabilidad de que el tiempo hasta el próximo evento sea <= 2
+2. Distribución Normal (continua)
+Aplicación: Se usa para modelar fenómenos que tienen una distribución en forma de campana (como promedios de grandes muestras, medidas físicas, etc.).
+Ejemplo: Las alturas de los estudiantes de una escuela.
+
+Métodos útiles:
+
+ppf: Para obtener el valor z correspondiente a un nivel de probabilidad acumulada dado.
+
+python
+Copia
+Modifica
+from scipy.stats import norm
+ppf_value = norm.ppf(0.95, loc=0, scale=1)  # Valor z correspondiente al 95% de probabilidad acumulada
+cdf: Para calcular la probabilidad acumulada hasta un valor específico.
+
+python
+Copia
+Modifica
+cdf_value = norm.cdf(1.96, loc=0, scale=1)  # Probabilidad acumulada hasta 1.96 en una normal estándar
+3. Distribución de Poisson
+Aplicación: Modela el número de eventos que ocurren en intervalos de tiempo fijos o en espacios de tamaño fijo. Ideal para contar eventos raros.
+Ejemplo: Número de autos que pasan por un peaje en una hora.
+
+Métodos útiles:
+
+pmf (Probability Mass Function): Para calcular la probabilidad de un número específico de eventos.
+
+python
+Copia
+Modifica
+from scipy.stats import poisson
+pmf_value = poisson.pmf(3, mu=2)  # Probabilidad de observar 3 eventos con una media de 2
+cdf: Para calcular la probabilidad acumulada hasta un número específico de eventos.
+
+python
+Copia
+Modifica
+cdf_value = poisson.cdf(3, mu=2)  # Probabilidad de que ocurran hasta 3 eventos
+4. Distribución Binomial
+Aplicación: Se utiliza cuando hay experimentos binarios, como obtener éxitos o fracasos en un número fijo de intentos.
+Ejemplo: Lanzar una moneda 10 veces y contar cuántas veces sale cara.
+
+Métodos útiles:
+
+pmf: Para calcular la probabilidad de un número específico de éxitos.
+
+python
+Copia
+Modifica
+from scipy.stats import binom
+pmf_value = binom.pmf(3, n=10, p=0.5)  # Probabilidad de obtener 3 éxitos en 10 intentos con probabilidad 0.5
+cdf: Para calcular la probabilidad acumulada hasta un número específico de éxitos.
+
+python
+Copia
+Modifica
+cdf_value = binom.cdf(3, n=10, p=0.5)  # Probabilidad de obtener hasta 3 éxitos en 10 intentos

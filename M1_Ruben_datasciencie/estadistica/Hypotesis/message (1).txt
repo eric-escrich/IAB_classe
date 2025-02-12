@@ -1,0 +1,60 @@
+Test de Hipótesis: Relacionadas vs. No Relacionadas
+1. Test de Hipótesis para Muestras Relacionadas (o dependientes)
+¿Qué significa?: Este tipo de test se utiliza cuando las dos muestras no son independientes, es decir, están vinculadas de alguna manera. Compara las medias de dos grupos que están relacionados o emparejados de alguna forma.
+
+Ejemplos:
+
+Medir el rendimiento de los estudiantes en dos momentos diferentes (antes y después de una intervención).
+
+Medir la presión sanguínea de los mismos pacientes antes y después de un tratamiento.
+
+Test adecuado: ttest_rel (Test t de muestras emparejadas o relacionadas)
+
+Hipótesis:
+
+H₀ (hipótesis nula): No hay diferencia en las medias de los dos grupos.
+H₁ (hipótesis alternativa): Hay una diferencia en las medias de los dos grupos.
+Ejemplo en Python:
+
+python
+Copia
+Modifica
+from scipy.stats import ttest_rel
+t_stat, p_value = ttest_rel(grupo1, grupo2)
+if p_value < 0.05:
+    print("Rechazamos la hipótesis nula, hay una diferencia significativa")
+else:
+    print("No rechazamos la hipótesis nula, no hay diferencia significativa")
+2. Test de Hipótesis para Muestras No Relacionadas (o independientes)
+¿Qué significa?: Este tipo de test se utiliza cuando las dos muestras son independientes entre sí, es decir, no hay una relación directa entre los datos de los dos grupos.
+
+Ejemplos:
+
+Comparar las calificaciones de dos grupos de estudiantes que no tienen ninguna relación.
+
+Comparar las ventas de dos tiendas distintas.
+
+Test adecuado: ttest_ind (Test t para muestras independientes)
+
+Hipótesis:
+
+H₀ (hipótesis nula): Las medias de los dos grupos son iguales.
+H₁ (hipótesis alternativa): Las medias de los dos grupos no son iguales.
+Ejemplo en Python:
+
+python
+Copia
+Modifica
+from scipy.stats import ttest_ind
+t_stat, p_value = ttest_ind(grupo1, grupo2)
+if p_value < 0.05:
+    print("Rechazamos la hipótesis nula, las medias son diferentes")
+else:
+    print("No rechazamos la hipótesis nula, no hay diferencia significativa entre las medias")
+Diferencias clave:
+Tipo de Muestras	Ejemplo	Test adecuado	Función en Python
+Muestras Relacionadas	Medir algo en dos momentos del mismo grupo, como antes y después de un tratamiento.	Test t de muestras emparejadas	ttest_rel
+Muestras No Relacionadas	Comparar dos grupos diferentes, como dos grupos de estudiantes en un examen.	Test t de muestras independientes	ttest_ind
+Resumen:
+ttest_rel: Se utiliza cuando los datos de las dos muestras están emparejados o relacionados de alguna forma (ej., antes y después en el mismo grupo).
+ttest_ind: Se utiliza cuando las dos muestras son independientes (ej., dos grupos diferentes que no tienen ninguna relación entre sí).
